@@ -1,0 +1,6 @@
+#!/bin/bash
+c++ -o main main.cpp -lstdc++ --std=c++11
+chmod 755 main
+ldd ./main
+
+
